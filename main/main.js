@@ -12,7 +12,6 @@ module.exports = function main(a) {
         }
         led += one[i][num[num.length - 1]] + "\n";
     }
-
-    console.log("Debug Info");
+    
     return led;
 };
